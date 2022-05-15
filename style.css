@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: 0px 350px;
+    border: 2px solid black;
+}
+
+.main ul {
+    list-style: none;
+}
+
+.main .datos_personales {
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(128, 160, 219);
+}
+
+.main .datos_personales img {
+    width: 50%;
+    height: 140px;
+    margin-top: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.main .datos_personales .name {
+    text-align: center;
+}
+
+.main .datos_personales h5:nth-child(1){
+    margin-top: 50px;
+}
+
+.main .datos_personales .sobre_mi {
+    margin-left: 10px;
+}
+
+.main .datos_personales .sobre_mi > h5{
+    text-align: center;
+}
+
+.main .curriculum {
+    width: 60%;
+    margin-top: 100px;
+}
+
+.main .curriculum article {
+    margin-bottom: 30px;
+}
+
+.main .curriculum h5 {
+    margin-left: 30px;
+}
+
+.main .curriculum ul {
+    margin-left: 27px;
+}
+
+.main .curriculum p {
+    margin-left: 27px;
+}
+
+.main .curriculum .campos_influencia {
+    margin-left: 50px;
+}
+
+.main .curriculum .campos_influencia table, td,th {
+    border: 2px solid black;
+}
