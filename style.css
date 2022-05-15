@@ -51,11 +51,10 @@
 
 .main .curriculum {
     width: 60%;
-    margin-top: 100px;
 }
 
 .main .curriculum article {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .main .curriculum h5 {
@@ -70,10 +69,10 @@
     margin-left: 27px;
 }
 
-.main .curriculum .campos_influencia {
+.main .curriculum .campos_habilidades {
     margin-left: 50px;
 }
 
-.main .curriculum .campos_influencia table, td,th {
+.main .curriculum .campos_habilidades table, td,th {
     border: 2px solid black;
 }
